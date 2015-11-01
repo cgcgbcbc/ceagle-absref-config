@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.0//EN" "http://www.sosy-lab.org/benchexec/benchmark-1.0.dtd">
+<benchmark tool="ceagle">
+    <rundefinition name="Default">
+    </rundefinition>
+
+    <tasks name="C files">
+        <include>*.c</include>
+    </tasks>
+
+    <tasks name="I files">
+        <include>*.i</include>
+    </tasks>
+
+    <propertyfile>ALL.prp</propertyfile>
+
+</benchmark>
