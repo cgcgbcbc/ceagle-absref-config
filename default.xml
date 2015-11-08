@@ -1,15 +1,19 @@
 <?xml version="1.0"?>
 <!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.0//EN" "http://www.sosy-lab.org/benchexec/benchmark-1.0.dtd">
-<benchmark tool="ceagle">
+<benchmark tool="ceagle_absref">
     <rundefinition name="Default">
     </rundefinition>
 
-    <tasks name="C files">
-        <include>*.c</include>
+    <tasks name="bitvectors">
+        <includesfile>BitVectors.set</includesfile>
     </tasks>
 
-    <tasks name="I files">
-        <include>*.i</include>
+    <tasks name="floats">
+        <includesfile>Floats.set</includesfile>
+    </tasks>
+
+    <tasks name="recursive">
+        <includesfile>Recursive.set</includesfile>
     </tasks>
 
     <propertyfile>ALL.prp</propertyfile>
